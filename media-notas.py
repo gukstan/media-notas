@@ -1,3 +1,7 @@
+#Pedir nome
+nome = input("Digite o seu primeiro nome: ")
+sobrenome = input("Digite o seu último sobrenome: ")
+
 #Pedir as notas
 port = float( input("Digite a sua nota de Português: "))
 ing = float( input("Digite a sua nota de Inglês: "))
@@ -8,4 +12,4 @@ geo = float( input("Digite a sua nota de Geografia: "))
 media = (port + ing + mat + geo) / 4
 
 #Mostrar a média
-print("A sua nota média é: ", media) 
+print("Parabéns,", nome, sobrenome + "!" " A sua nota média é: ", media) 
