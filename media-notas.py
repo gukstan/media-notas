@@ -8,4 +8,4 @@ geo = float( input("Digite a sua nota de Geografia: "))
 media = (port + ing + mat + geo) / 4
 
 #Mostrar a média
-print("A sua nota média é: ", media)
+print("A sua nota média é: ", media) 
