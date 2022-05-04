@@ -11,5 +11,10 @@ geo = float( input("Digite a sua nota de Geografia: "))
 #Calcular a média
 media = (port + ing + mat + geo) / 4
 
-#Mostrar a média
-print("Parabéns,", nome, sobrenome + "!" " A sua nota média é: ", media) 
+#Condição para ser aprovado: média maior ou igual a 5
+if (media>=5):
+    #Mostrar aprovação
+    print("Parabéns,", nome, sobrenome + ", você foi aprovado!" " A sua nota média é:", media)
+    #Mostrar reprovação
+else:
+    print("Infelizmente você foi reprovado,", nome, sobrenome + ". Sua nota média é:", media)
